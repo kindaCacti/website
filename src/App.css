@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +26,7 @@
   margin-top:0px;
   padding-top:0px;
   text-align:left;
-  width:40vw;
+  width:35vw;
 }
 
 .navbar-option-text{
@@ -40,14 +40,14 @@
   margin-right: 20px;
   display: inline-block;
   position:relative;
-  top:17px;
 }
 
 .navbar-option-border{
-  background-color: black;
+  background-color: #EFEFEF;
   height:3px;
   width: 0px;
   transition: width .3s;
+  margin-top:3px;
 }
 
 .navbar-option:hover .navbar-option-border{

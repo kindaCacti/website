@@ -1,0 +1,37 @@
+.homenavbar-name{
+    font-size:300%;
+    margin:20px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+#homenavbar-name-container{
+    margin-top:0px;
+    padding-top:0px;
+    text-align:left;
+}
+
+.homenavbar-option-text{
+    font-size:200%;
+    text-decoration: none;
+    color:#FC5185;
+}
+
+.homenavbar-option{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    position:relative;
+}
+
+.homenavbar-option-border{
+    background-color: #EFEFEF;
+    height:3px;
+    width: 0px;
+    transition: width .3s;
+    margin-top:3px;
+}
+
+.homenavbar-option:hover .homenavbar-option-border{
+    width: 100%;    
+}

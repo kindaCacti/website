@@ -9,7 +9,7 @@ export default function Navbar() {
 
         <div className="navbar-container" id="navbar-options-container">
           <div className="navbar-option">
-            <a href="" className="navbar-option-text">Home</a>
+            <a href="/" className="navbar-option-text">About me</a>
             <div className="navbar-option-border">&nbsp;</div>
           </div>
           <div className="navbar-option">
