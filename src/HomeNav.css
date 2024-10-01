@@ -1,7 +1,7 @@
 .homenavbar-name{
     font-size:300%;
     margin:20px;
-    margin-bottom: 150px;
+    margin-bottom: min(150px, max(50px, 30vh));
     text-align: center;
 }
 
@@ -18,10 +18,16 @@
 }
 
 .homenavbar-option{
+    padding-right:20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding-right: 30px;
     display: inline-block;
     position:relative;
+}
+
+.homenavbar-option:not(:last-child){
+    border-right: solid lightblue 1px;
 }
 
 .homenavbar-option-border{

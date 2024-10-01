@@ -9,15 +9,15 @@ export default function Navbar() {
 
         <div className="navbar-container" id="navbar-options-container">
           <div className="navbar-option">
-            <a href="/" className="navbar-option-text">About me</a>
+            <a href="/aboutme" className="navbar-option-text">About me</a>
             <div className="navbar-option-border">&nbsp;</div>
           </div>
           <div className="navbar-option">
-            <a href="" className="navbar-option-text">Projects</a>
+            <a href="/projects" className="navbar-option-text">Projects</a>
             <div className="navbar-option-border">&nbsp;</div>
           </div>
           <div className="navbar-option">
-            <a href="" className="navbar-option-text">CV and contact</a>
+            <a href="/contact" className="navbar-option-text">CV and contact</a>
             <div className="navbar-option-border">&nbsp;</div>
           </div>
         </div>

@@ -10,15 +10,15 @@ export const HomeNav = () => {
 
         <div className="homenavbar-container" id="homenavbar-options-container">
           <div className="homenavbar-option">
-            <a href="/" className="homenavbar-option-text">About me</a>
+            <a href="/aboutme" className="homenavbar-option-text">About me</a>
             <div className="homenavbar-option-border">&nbsp;</div>
           </div>
           <div className="homenavbar-option">
-            <a href="" className="homenavbar-option-text">Projects</a>
+            <a href="/projects" className="homenavbar-option-text">Projects</a>
             <div className="homenavbar-option-border">&nbsp;</div>
           </div>
           <div className="homenavbar-option">
-            <a href="" className="homenavbar-option-text">CV and contact</a>
+            <a href="/contact" className="homenavbar-option-text">CV and contact</a>
             <div className="homenavbar-option-border">&nbsp;</div>
           </div>
         </div>
